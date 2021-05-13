@@ -1,5 +1,6 @@
 {
-  "name": "client",
+  "name": "react-boilerplate",
+  "short_name": "React Boilerplate",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +11,7 @@
     "test": "jest",
     "test:watch": "yarn test --watch",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -s ./public"
   },
   "lint-staged": {
     "src/**/*": [
@@ -20,6 +21,7 @@
   },
   "dependencies": {
     "next": "10.2.0",
+    "next-pwa": "^5.2.21",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "styled-components": "^5.3.0"
