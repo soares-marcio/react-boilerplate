@@ -10,6 +10,7 @@ export const Wrapper = styled.main`
   padding: 3rem;
   justify-content: center;
   align-items: center;
+  text-align: center;
 `
 
 export const Logo = styled.img`

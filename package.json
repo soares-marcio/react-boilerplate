@@ -9,7 +9,7 @@
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
     "test:watch": "yarn test --watch",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook"
   },
   "lint-staged": {
@@ -27,10 +27,7 @@
   "devDependencies": {
     "@babel/core": "^7.14.0",
     "@babel/preset-typescript": "^7.13.0",
-    "@storybook/addon-actions": "^6.2.9",
     "@storybook/addon-essentials": "^6.2.9",
-    "@storybook/addon-links": "^6.2.9",
-    "@storybook/preset-typescript": "^3.0.0",
     "@storybook/react": "^6.2.9",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
